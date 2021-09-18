@@ -1,9 +1,9 @@
-language: bash
+language: node_js
 
-sudo: required
+node_js:
+- 14.17.0
+- 12
 
-services:
--docker
 
 script:
 -echo "hello Mark"
